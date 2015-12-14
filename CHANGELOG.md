@@ -1,6 +1,31 @@
-## Week 45 (Oct. 19 - in progress)
+## Week 51 (Nov 25 - Dec 15.)
 
-- New Studio panels
+- [Angular-Wakanda 1.0 release](http://wakanda.github.io/angular-wakanda) and support in the Studio
+- Angular-Wakanda project scaffolding on solution creation
+
+## Week 48 (Nov. 4 - Nov. 24)
+
+- [Mobile] New Preview mobile apps in the studio
+- [Mobile] New Run on mobile devices
+- [Mobile] New troubleshooting application to setup and check your environment
+- [Studio] Better Git support
+- [Studio] New Deploy on cloud and git server
+- [Studio] New "Getting Started" Start Page
+- [Studio] Improvement on file creation:
+  - New menu item to create CSS files
+  - HTML files now created empty
+  - No more magic destination and folder creation, except for Page and Component Prototypes
+- [Web] New Run Page with live-reload support
+- [Model] Improvement: model files scaffolding for MySQL connector
+- [Add-ons] 10 new core Studio components updatable directly from Add-ons
+
+## Week 45 (Oct. 19 - Nov. 3)
+
+- [Mobile] New Run on mobile simulators
+- [Mobile] New Build mobile apps from the studio
+- [Studio] New Project directory structure
+- [Studio] Improvement: a single Start / Stop server in the Studio that automatically loads the solution
+- [Studio] New Studio panels:
   - One new left panel for Home and Solution Explorer
   - One new bottom panel for consoles and editors
 

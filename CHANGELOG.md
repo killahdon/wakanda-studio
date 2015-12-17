@@ -1,6 +1,11 @@
-## Week 51 (Nov 25 - Dec 15.)
+## 1.0.1 (Dec. 17)
 
-- [Angular-Wakanda 1.0 release](http://wakanda.github.io/angular-wakanda) and support in the Studio
+- Fixed Prototyper bug [#19](https://github.com/Wakanda/wakanda-issues/issues/19)
+- Project creation with [Angular-Wakanda 1.0.2](http://wakanda.github.io/angular-wakanda)
+
+## Digital App Factory 1.0.0 (Dec. 7)
+
+- [Angular-Wakanda 1.0.0 release](http://wakanda.github.io/angular-wakanda) and support in the Studio
 - Angular-Wakanda project scaffolding on solution creation
 
 ## Week 48 (Nov. 4 - Nov. 24)

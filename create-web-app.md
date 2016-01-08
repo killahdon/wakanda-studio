@@ -40,11 +40,11 @@ Close the web preview panel and click again on Run Page. The Studio will install
 
 Wakanda integrates the Angular framework.
 
-[Learn more »](http://wakanda.github.io/angular-wakanda/){:target="_blank"}
+[Learn more »](http://wakanda.github.io/angular-wakanda/){:target="_blank"}{:class="btn"}
 
 ---
 
 You can also create a mobile version of your application, based on the same backend.
 
-[Create the mobile version »](create-mobile-app.html)
+[Create the mobile version »](create-mobile-app.html){:class="btn"}
 

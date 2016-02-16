@@ -102,3 +102,11 @@ section {
     }
   }
 }
+
+ul, ol {
+  li {
+    pre.highlight {
+      margin-left: 0;
+    }
+  }
+}

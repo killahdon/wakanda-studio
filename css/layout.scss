@@ -20,7 +20,7 @@ nav {
   bottom: 0;
   min-height: 100%;
 
-  h1, h2, ul {
+  h1, h2, ul, ol {
     padding-left: 28px;
     width: 100%;
     display: block;
@@ -34,7 +34,7 @@ nav {
     }
   }
 
-  ul.inline li {
+  ul.inline li, ol.inline li {
     display: inline;
   }
 
@@ -59,7 +59,7 @@ section {
   min-height: 100%;
   text-align: justify;
 
-  h1, h2, h3, ul, & > p, blockquote, pre, hr {
+  h1, h2, h3, ul, ol, & > p, blockquote, pre, hr {
     max-width: 800px;
     margin-left: 40px;
     margin-right: 40px;

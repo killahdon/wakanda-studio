@@ -27,6 +27,15 @@ entries:
   - title: Deploy your app
     url: deploy-your-app.html
 
+- title: Build management
+  pages:
+
+  - title: Build process introduction
+    url: build-process-introduction.html
+
+  - title: SASS precompilation
+    url: sass-precompilation.html
+
 - title:  Other resources
   pages:
 

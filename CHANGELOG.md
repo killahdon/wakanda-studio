@@ -3,6 +3,25 @@
 
 # Change log
 
+## 1.0.2 (Feb. 19)
+
+- Fix : Loading large projects freezes the studio
+- Fix : Directory panel can't be resized on small screens
+- Fix : `bower update` fails inside `web` & `mobile` folders
+- Fix : RPC modules renaming keeps both old and new paths exposed as RPC
+- Fix : Git visual bug [#16](https://github.com/Wakanda/wakanda-issues/issues/16)
+- Fix : `Untabify Selection` not working for JS Files
+- Fix : Git and Troubleshooting interfaces slow load when offline
+- Fix : renaming a folder in the explorer makes it disappear from the list
+- Fix : black lines appear inside resized web zones
+- Fix : Integrate latest Angular-Wakanda fixes ([1.0.3](https://github.com/Wakanda/angular-wakanda/releases/tag/v1.0.3))
+- Fix : Concurrent Ionic Run or Build sometimes causes file corruption
+- Fix : Prototyper's image widget does not render image in runtime
+- Fix : Prototyper's RichText widget resize loop
+- Fix : Prototyper's Combobox widget debugger statement from [27](https://github.com/Wakanda/wakanda-issues/issues/27)
+
+---
+
 ## 1.0.1 (Dec. 17)
 
 - Fixed Prototyper bug [#19](https://github.com/Wakanda/wakanda-issues/issues/19)

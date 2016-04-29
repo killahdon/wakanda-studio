@@ -8,48 +8,48 @@
 - [Web & Mobile] New navigation and address bar in the Preview panel
 - [Studio] New preferences: auto-shutdown server on solution close and auto-reload modified files
 - [Studio] Better support of Retina displays
-- [Code Editor] New comments toggling with `CMD-/` and `CTRL-/`
+- [Code Editor] Comments toggling with `CMD-/` and `CTRL-/`
 - [Code Editor] Better support of `.less`, `.scss`, `.sass` and `.md` files
 - [Git & Deploy] Better overall user experience
-- [Git] New remote settings edition
+- [Git] Remote settings edition
 - [Add-ons] Improved updatability of Studio components and dependencies mechanism
 - [Extensions API] New option for `targets` argument in Extension manifest to handle files based on their extension
-- Fix Wakanda Studio deployment UX issue [#15](https://github.com/Wakanda/wakanda-issues/issues/15)
-- Fix TAB key shows completion list instead of indenting code
-- Fix Prototyper css files not updated automatically
-- Fix Prototyper unreachable Google fonts API
+- Fix: Wakanda Studio deployment UX issue [#15](https://github.com/Wakanda/wakanda-issues/issues/15)
+- Fix: TAB key shows completion list instead of indenting code
+- Fix: Prototyper css files not updated automatically
+- Fix: Prototyper unreachable Google fonts API
 
 ## 1.0.3 (Feb. 25)
 
-- Fix Live reload on Run Page in Windows Studio
-- Fix Model Designer combobox style [#35](https://github.com/Wakanda/wakanda-issues/issues/35)
-- Fix Autocompletion suggestions on multiple DataClasses
-- Fix Code Editor indentation visual hint for spaces
-- Fix Override via API of inherited attributes
-- Fix Console link to nodejs installation page
+- Fix: Live reload on Run Page in Windows Studio
+- Fix: Model Designer combobox style [#35](https://github.com/Wakanda/wakanda-issues/issues/35)
+- Fix: Autocompletion suggestions on multiple DataClasses
+- Fix: Code Editor indentation visual hint for spaces
+- Fix: Override via API of inherited attributes
+- Fix: Console link to nodejs installation page
 
 ## 1.0.2 (Feb. 19)
 
-- Fix Loading large projects freezes the studio
-- Fix Directory panel can't be resized on small screens
-- Fix `bower update` fails inside `web` & `mobile` folders
-- Fix RPC modules renaming keeps both old and new paths exposed as RPC
-- Fix Git visual bug [#16](https://github.com/Wakanda/wakanda-issues/issues/16)
-- Fix `Untabify Selection` not working for JS Files
-- Fix Git and Troubleshooting interfaces slow load when offline
-- Fix renaming a folder in the explorer makes it disappear from the list
-- Fix black lines appear inside resized web zones
-- Fix Integrate latest Angular-Wakanda fixes ([1.0.3](https://github.com/Wakanda/angular-wakanda/releases/tag/v1.0.3))
-- Fix Concurrent Ionic Run or Build sometimes causes file corruption
-- Fix Prototyper's image widget does not render image in runtime
-- Fix Prototyper's RichText widget resize loop
-- Fix Prototyper's Combobox widget debugger statement from [27](https://github.com/Wakanda/wakanda-issues/issues/27)
+- Fix: Loading large projects freezes the studio
+- Fix: Directory panel can't be resized on small screens
+- Fix: `bower update` fails inside `web` & `mobile` folders
+- Fix: RPC modules renaming keeps both old and new paths exposed as RPC
+- Fix: Git visual bug [#16](https://github.com/Wakanda/wakanda-issues/issues/16)
+- Fix: `Untabify Selection` not working for JS Files
+- Fix: Git and Troubleshooting interfaces slow load when offline
+- Fix: renaming a folder in the explorer makes it disappear from the list
+- Fix: black lines appear inside resized web zones
+- Fix: Integrate latest Angular-Wakanda fixes ([1.0.3](https://github.com/Wakanda/angular-wakanda/releases/tag/v1.0.3))
+- Fix: Concurrent Ionic Run or Build sometimes causes file corruption
+- Fix: Prototyper's image widget does not render image in runtime
+- Fix: Prototyper's RichText widget resize loop
+- Fix: Prototyper's Combobox widget debugger statement from [27](https://github.com/Wakanda/wakanda-issues/issues/27)
 
 ---
 
 ## 1.0.1 (Dec. 17)
 
-- Fixed Prototyper bug [#19](https://github.com/Wakanda/wakanda-issues/issues/19)
+- Fix: Prototyper bug [#19](https://github.com/Wakanda/wakanda-issues/issues/19)
 - Project creation with [Angular-Wakanda 1.0.2](http://wakanda.github.io/angular-wakanda)
 
 ---

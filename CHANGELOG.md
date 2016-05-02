@@ -3,15 +3,20 @@
 
 # Change log
 
-## 1.1.0 (Apr. 29)
+## Pre-release 1.1.0 (upcoming)
 
+- [Web] New support of Angular 2
+- [Mobile] New support of Ionic 2
 - [Web & Mobile] New navigation and address bar in the Preview panel
+- [Web & Mobile] Better overall user experience
+- [Studio] Open project folder in Terminal
+- [Studio] New web and mobile template catalog for project creation
 - [Studio] New preferences: auto-shutdown server on solution close and auto-reload modified files
 - [Studio] Better support of Retina displays
 - [Code Editor] Comments toggling with `CMD-/` and `CTRL-/`
-- [Code Editor] Better support of `.less`, `.scss`, `.sass` and `.md` files
-- [Git & Deploy] Better overall user experience
+- [Code Editor] Better support of `.ts` `.less`, `.scss`, `.sass` and `.md` files
 - [Git] Remote settings edition
+- [Git & Deploy] Better overall user experience
 - [Add-ons] Improved updatability of Studio components and dependencies mechanism
 - [Extensions API] New option for `targets` argument in Extension manifest to handle files based on their extension
 - Fix: Wakanda Studio deployment UX issue [#15](https://github.com/Wakanda/wakanda-issues/issues/15)

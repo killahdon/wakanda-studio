@@ -89,15 +89,15 @@ This is the code necessary for the live-reload to work. These tasks are normally
 
 Many additional Gulp modules are available. Here's a list of the most popular packages:
 
-- [Sass](https://www.npmjs.com/package/gulp-sass)
-- [Less](https://www.npmjs.com/package/gulp-less)
-- [Babel](https://www.npmjs.com/package/gulp-babel)
-- [TypeScript](https://www.npmjs.com/package/gulp-typescript)
-- [CoffeScript](https://www.npmjs.com/package/gulp-coffee)
-- [Handlebars templates](https://www.npmjs.com/package/gulp-handlebars)
-- [Mustache templates](https://www.npmjs.com/package/gulp-mustache)
-- [JS Uglify](https://www.npmjs.com/package/gulp-uglify)
-- [Imagemin](https://www.npmjs.com/package/gulp-imagemin)
+- [Sass](https://www.npmjs.com/package/gulp-sass){:target="blank_"}
+- [Less](https://www.npmjs.com/package/gulp-less){:target="blank_"}
+- [Babel](https://www.npmjs.com/package/gulp-babel){:target="blank_"}
+- [TypeScript](https://www.npmjs.com/package/gulp-typescript){:target="blank_"}
+- [CoffeScript](https://www.npmjs.com/package/gulp-coffee){:target="blank_"}
+- [Handlebars templates](https://www.npmjs.com/package/gulp-handlebars){:target="blank_"}
+- [Mustache templates](https://www.npmjs.com/package/gulp-mustache){:target="blank_"}
+- [JS Uglify](https://www.npmjs.com/package/gulp-uglify){:target="blank_"}
+- [Imagemin](https://www.npmjs.com/package/gulp-imagemin){:target="blank_"}
 
 
 ---

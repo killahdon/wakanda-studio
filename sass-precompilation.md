@@ -58,7 +58,7 @@ gulp.task('watch', function() {
 
 This way the Gulp `watch` task will now also trigger the `sass` sources precompilation and the live-reload event.
 
-**NOTE:** If a Gulp process was already running you must close and re-open your solution to reload the configuration.
+**Note:** If a Gulp process was already running you must close and re-open your solution to reload the configuration.
 
 
 ## Customize settings
@@ -102,7 +102,7 @@ gulp.task('sass', function(done) {
 });
 ```
 
-**NOTE:** this functionality requires the following dependencies to be defined in the `package.json` file:
+**Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
 ```javascript
 "devDependencies": {
@@ -156,7 +156,7 @@ gulp.task('sass', function(done) {
 });
 ```
 
-*Note: this functionality requires the following dependencies to be defined in the `package.json` file:
+**Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
 ```javascript
 "devDependencies": {
@@ -193,7 +193,7 @@ gulp.task('sass', function(done) {
 });
 ```
 
-*Note: this functionality requires the following dependencies to be defined in the `package.json` file:
+**Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
 ```javascript
 "devDependencies": {
@@ -230,7 +230,7 @@ In order:
 4. Customize the `sass` task inside the `gulpfile.js` to be coherent with your project scaffolding:
   
   	   
-  	   // 1 - change sass paths like this
+       // 1 - change sass paths like this
        var paths = {
          sass: {
            src: ['./scss/**/*.scss'],
@@ -270,5 +270,5 @@ In order:
     
   <img src="img/mobile-scss-reload.png">
        
-**NOTE:** If a Ionic process was already running you must close and re-open your solution to reload the configuration.
+**Note:** If a Ionic process was already running you must close and re-open your solution to reload the configuration.
 

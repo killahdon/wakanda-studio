@@ -24,6 +24,6 @@
 
 ---
 
-Now, you can quickly prototype an app to validate your model and add some data.
+Now, create a web application with Wakanda and Angular:
 
-[Prototype your app »](prototype.html){:class="btn"}
+[Create a web app »](create-web-app.html){:class="btn"}

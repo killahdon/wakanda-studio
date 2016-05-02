@@ -8,14 +8,11 @@ entries:
   
   - title: 1 - Design your data model
     url: design-data-model.html
-  
-  - title: 2 - Prototype your app
-    url: prototype.html
 
-  - title: 3 - Create a web app
+  - title: 2 - Create a web app
     url: create-web-app.html
  
-  - title: 4 - Create a mobile app
+  - title: 3 - Create a mobile app
     url: create-mobile-app.html
 
 - title: Code management

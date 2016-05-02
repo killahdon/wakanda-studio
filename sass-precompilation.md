@@ -11,7 +11,10 @@
 
 ## Add SASS precompilation to your web app
 
-We will now see how to add SASS files precompilation to the build process. First we need to add to our `package.json` the following dependency:
+We will see how to add SASS files precompilation to the build process.
+You should read the [Build process introduction](build-process-introduction.html) first.
+
+First we need to add to our `package.json` the following dependency:
 
 ```javascript
 "devDependencies": {

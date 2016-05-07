@@ -16,9 +16,11 @@ You should read the [Build process introduction](build-process-introduction.html
 
 First we need to add to our `package.json` the following dependency:
 
-```javascript
-"devDependencies": {
-  "gulp-sass": "*"
+```json
+{
+  "devDependencies": {
+    "gulp-sass": "*"
+  }
 }
 ```
  
@@ -92,7 +94,7 @@ A complete minification can reduce the filesize even further:
 
 ```javascript
 var minifyCss = require('gulp-minify-css'),
-  rename = require('gulp-rename');
+    rename = require('gulp-rename');
     
 gulp.task('sass', function(done) {
   gulp.src(paths.sass.src)
@@ -107,10 +109,12 @@ gulp.task('sass', function(done) {
 
 **Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
-```javascript
-"devDependencies": {
-  "gulp-minify-css": "*",
-  "gulp-rename": "*"
+```json
+{
+  "devDependencies": {
+    "gulp-minify-css": "*",
+    "gulp-rename": "*"
+  }
 }
 ```
 
@@ -136,10 +140,12 @@ gulp.task('sass', function(done) {
 
 **Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
-```javascript
-"devDependencies": {
-  "gulp-minify-css": "*",
-  "gulp-rename": "*"
+```json
+{
+  "devDependencies": {
+    "gulp-minify-css": "*",
+    "gulp-rename": "*"
+  }
 }
 ```
 
@@ -161,9 +167,11 @@ gulp.task('sass', function(done) {
 
 **Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
-```javascript
-"devDependencies": {
-  "gulp-sourcemaps": "*"
+```json
+{
+  "devDependencies": {
+    "gulp-sourcemaps": "*"
+  }
 }
 ```
 You can now found your sourcemaps inside the output file as a comment:
@@ -198,11 +206,13 @@ gulp.task('sass', function(done) {
 
 **Note:** this functionality requires the following dependencies to be defined in the `package.json` file:
 
-```javascript
-"devDependencies": {
-  "gulp-minify-css": "*",
-  "gulp-rename": "*",
-  "gulp-sourcemaps": "*"
+```json
+{
+  "devDependencies": {
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-sourcemaps": "*"
+  }
 }
 ```
 

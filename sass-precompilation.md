@@ -227,55 +227,57 @@ We will now evaluate how to integrate the same workflow in our Wakanda Ionic-bas
 
 In order:
 
-1. Add to the `package.json` inside your `mobile` folder any Gulp dependency you may need. Following the example above we will need to add only `gulp-sourcemaps` to the dependencies already provided:
+1 - Add to the `package.json` inside your `mobile` folder any Gulp dependency you may need. Following the example above we will need to add only `gulp-sourcemaps` to the dependencies already provided:
     
     <img src="img/mobile-scss-json-sourcemaps.png" />
     
   
-2. Run in the terminal `npm install` while inside your `mobile` folder to install all the Gulp and SASS dependencies defined in the `package.json` file.
+2 - Run in the terminal `npm install` while inside your `mobile` folder to install all the Gulp and SASS dependencies defined in the `package.json` file.
 
-3. Create a `scss` folder inside the `mobile` folder and put our sass sources inside:
+3 - Create a `scss` folder inside the `mobile` folder and put our sass sources inside:
   
    <img src="img/mobile-scss-folder.png" />  
   
-    Being outside of the `www` folder, SASS sources won't included in the final application package.
+Being outside of the `www` folder, SASS sources won't included in the final application package.
   
-4. Customize the `sass` task inside the `gulpfile.js` to be coherent with your project scaffolding:
+4 - Customize the `sass` task inside the `gulpfile.js` to be coherent with your project scaffolding:
+
+```javascript
+// 1 - change sass paths like this
+var paths = {
+  sass: {
+    src: ['./scss/**/*.scss'],
+    dest: './www/css/'
+  }
+};
+
+// 2 - add missing require
+var sourcemaps = require('gulp-sourcemaps');
+
+// 3 - add missing tasks
+gulp.task('sass', function(done) {
+  gulp.src(paths.sass.src)
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .on('error', sass.logError)
+    .pipe(sourcemaps.write())
+    .pipe(minifyCss())
+    .pipe(rename({ extname: '.min.css' }))
+    .pipe(gulp.dest(paths.sass.dest))
+    .on('end', done);
+});
+gulp.task('watch', function() {
+  gulp.watch(paths.sass.src, ['sass']); // 'reload' task is not necessary
+});
+```
+
+5 - Finally, tell Ionic which Gulp tasks you want to run. Add this line inside the `ionic.project` file:
   
-  	   
-       // 1 - change sass paths like this
-       var paths = {
-         sass: {
-           src: ['./scss/**/*.scss'],
-           dest: './www/css/'
-         }
-       };
-       
-       // 2 - add missing require
-       var sourcemaps = require('gulp-sourcemaps');
-       
-       // 3 - add missing tasks
-       gulp.task('sass', function(done) {
-         gulp.src(paths.sass.src)
-           .pipe(sourcemaps.init())
-           .pipe(sass())
-           .on('error', sass.logError)
-           .pipe(sourcemaps.write())
-           .pipe(minifyCss())
-           .pipe(rename({ extname: '.min.css' }))
-           .pipe(gulp.dest(paths.sass.dest))
-           .on('end', done);
-       });
-       gulp.task('watch', function() {
-         gulp.watch(paths.sass.src, ['sass']); // 'reload' task is not necessary
-       });
-              
-        
-5. Finally, tell Ionic which Gulp tasks you want to run. Add this line inside the `ionic.project` file:
-  
+```
        "gulpStartupTasks": ["sass", "watch"],
-   
-6. Now click on any mobile action button (for instance Preview). If the configuration is correct you should see the following output in the console:
+```
+
+6 - Now click on any mobile action button (for instance Preview). If the configuration is correct you should see the following output in the console:
 
   <img src="img/mobile-scss-working.png">
     

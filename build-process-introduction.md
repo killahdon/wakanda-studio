@@ -45,6 +45,7 @@ The first parameter is the task name, 'serve', and the second parameter can be a
 
 - `connect`: launch a server ready to live-reload when a file change message is received.
 
+```javascript
       gulp.task('connect', function() {
         connect.server({
           root: ['.'],
@@ -63,9 +64,11 @@ The first parameter is the task name, 'serve', and the second parameter can be a
           }
         });
       });
+```
 
 - `watch` and `reload`: watch file changements in the specified folders and inform the live-reload server.
 
+```javascript
       var baseFolder = options.app;
       gulp.task('watch', function() {
         gulp.watch([
@@ -79,6 +82,7 @@ The first parameter is the task name, 'serve', and the second parameter can be a
         gulp.src(options.app + '**')
           .pipe(connect.reload());
       });
+```
 
 This is the code necessary for the live-reload to work. These tasks are normally different for each project:
 

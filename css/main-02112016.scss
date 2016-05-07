@@ -1,9 +1,10 @@
 ---
 ---
 
-@import url(themes/{{ site.theme }}/theme.css);
+@import url(themes/{{ site.themes.general }}/theme.css);
 @import url(layout.css);
-@import url(themes/{{ site.theme }}/overrides.css);
+@import url(themes/{{ site.themes.general }}/overrides.css);
+@import url(code/{{ site.themes.code }}.css);
 
 html {
   min-height: 100%;

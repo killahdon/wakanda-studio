@@ -6,15 +6,15 @@ version: 0.1
 repository: https://github.com/Wakanda/wakanda-studio
 branch: gh-pages
 encoding: utf-8
-theme: wakanda
+themes: 
+    general: wakanda
+    code: monokai
+version: 1.3
+encoding: utf-8
 defaults:
   -
     values:
       layout: "index"
-markdown: kramdown
-kramdown:
-  input: GFM
-relative_permalinks: false
 exclude: [
 .git,
 .gitignore,

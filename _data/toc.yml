@@ -47,10 +47,6 @@ entries:
     url: http://wakanda.github.io/angular-wakanda
     target: _blank
 
-  - title: Frequently Asked Questions
-    url: http://www.wakanda.io/frequently-asked-questions
-    target: _blank
-
   - title: Issue submission
     url: https://github.com/Wakanda/wakanda-issues/issues
     target: _blank

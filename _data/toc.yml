@@ -5,14 +5,17 @@ entries:
   
   - title: 0 - Installation
     url: installation.html
-  
-  - title: 1 - Design your data model
+
+  - title: 1 - Choose your templates
+    url: choose-templates.html
+
+  - title: 2 - Design your data model
     url: design-data-model.html
 
-  - title: 2 - Create a web app
+  - title: 3 - Create a web app
     url: create-web-app.html
  
-  - title: 3 - Create a mobile app
+  - title: 4 - Create a mobile app
     url: create-mobile-app.html
 
 - title: Code management

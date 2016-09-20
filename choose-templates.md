@@ -22,13 +22,13 @@ Enter a name for your solution:
 
 Select a template from the list of the mobile templates:
 
-<img src="img/create-solution-select-mobile-template.gif" />
+<img src="img/create-solution-select-mobile-template.png" />
 
 ## 3 - Choose your web template
 
 Select a template from the list of the web templates:
 
-<img src="img/create-solution-select-web-template.gif" />
+<img src="img/create-solution-select-web-template.png" />
 
 -----
 

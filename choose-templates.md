@@ -16,7 +16,7 @@
 Enter a name for your solution:
 
 > **TIPS**: 
-> - click on <img class="inline" src="img/create-solution-select-path"> to change where your solution will be created
+> - click on <img class="inline" src="img/create-solution-select-path.png"> to change where your solution will be created
 
 ## 2 - Choose your mobile template
 

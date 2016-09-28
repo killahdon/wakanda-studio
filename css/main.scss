@@ -21,7 +21,6 @@ img.inline {
 
 nav {
   background: #fff;
-  border-right: 1px solid #dddddd;
 
   .fa {
     font-size: 14px;
@@ -36,9 +35,11 @@ nav {
     color:#555;
   }
 
+  ul, h1, h2 {
+    padding: 0;
+  }  
   li a {
     color:#14a1c8;
-    line-height:28px;
   }
 }
 

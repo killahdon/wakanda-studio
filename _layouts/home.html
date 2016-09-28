@@ -16,8 +16,8 @@
     <script>
             $(document).ready(function(){
                 var stepsTitle = [
-                    '<i class="fa fa-cog" aria-hidden="true"></i> Setup',
                     '<i class="fa fa-magic" aria-hidden="true"></i> Templates',
+                    '<i class="fa fa-cog" aria-hidden="true"></i> Setup',
                     '<i class="fa fa-database" aria-hidden="true"></i> Data model',
                     '<i class="fa fa-laptop" aria-hidden="true"></i> Web app',
                     '<i class="fa fa-mobile" aria-hidden="true"></i> Mobile app'
@@ -27,7 +27,9 @@
                     customPaging : function(slider, i) {
                         return '<span>'+stepsTitle[i]+'</span>';
                     },
+                    appendDots: "#dots"
                 });
+                $(".slick-dots").append('<li class="secondary"><span><a href="#announcement">Next steps »</a></span></li>');
             });
     </script>
 </body>

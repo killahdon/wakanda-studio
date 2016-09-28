@@ -6,6 +6,10 @@
 @import url(mailing.css);
 @import url(search.css);
 
+.container-fluid {
+   max-width:1280px;
+}
+
 nav {
   hr {
     display: none;
@@ -45,6 +49,18 @@ nav {
         font-size: 13px;
       }
     }
+  }
+}
+
+nav.subnavbar {
+  right: 0;
+  left: auto;
+
+  .fa {
+    padding: 0 5px 0 0;
+    margin: 0;
+    width: 20px;
+    color: #aaaaaa;
   }
 }
 

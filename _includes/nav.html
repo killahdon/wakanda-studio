@@ -6,6 +6,9 @@
         {% if page.url contains node.url %}
             {% assign chapter_title = entry.title %}
         {% endif %}
+        {% if page.url == '/' %}
+            {% assign chapter_title = '' %}
+        {% endif %}
     {% endfor %}
 {% endfor %}
 

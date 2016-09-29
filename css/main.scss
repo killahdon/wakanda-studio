@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url(themes/bootstrap/bootstrap.min.css);
+@import url(lib/bootstrap/bootstrap.min.css);
 @import url(themes/{{ site.themes.general }}/theme.css);
 @import url(layout.css);
 @import url(themes/{{ site.themes.general }}/overrides.css);

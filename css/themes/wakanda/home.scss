@@ -16,7 +16,7 @@
     text-decoration: none;
 
     &:hover {
-      color: #5e5e5e;
+      text-decoration: underline;
     }
   }
 
@@ -30,7 +30,7 @@
   .caption {
     font-size: 22px;
     font-weight: 200;
-    padding: 10px;
+    padding: 10px 0 0 0;
   }
 
   .slides {

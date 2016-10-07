@@ -37,8 +37,6 @@
 		wrap: function(){
 			this.previewElement.addClass('gifplayer-ready');
 			this.wrapper = this.previewElement.wrap("<div class='gifplayer-wrapper'></div>").parent();
-			this.wrapper.css('width', this.previewElement.width());
-			this.wrapper.css('height', this.previewElement.height());
 			this.previewElement.css('cursor','pointer');
 		},
 
@@ -61,8 +59,8 @@
 			var label = this.getOption('label');
 			this.playElement = $("<ins class='play-gif'>" + label + "</ins>");
 			this.wrapper.append(this.playElement);
-			this.playElement.css('top', this.previewElement.height()/2 - this.playElement.height()/2);
-			this.playElement.css('left', this.previewElement.width()/2 - this.playElement.width()/2);
+			this.playElement.css('top', "50%");
+			this.playElement.css('left', "50%");
 		},
 
 		addEvents: function(){
@@ -158,10 +156,8 @@
 				this.enableAbort();
 			}
 			var gifSrc = this.getFile('gif');
-			var gifWidth = this.previewElement.width();
-			var gifHeight = this.previewElement.height();
 
-			this.gifElement=$("<img class='gp-gif-element' width='"+ gifWidth + "' height=' "+ gifHeight +" '/>");
+			this.gifElement=$("<img class='gp-gif-element' />");
 
 			var wait = this.getOption('wait');
 			if(wait){
@@ -183,9 +179,6 @@
 				gp.spinnerElement.hide();
 			}
 			this.gifElement.css('cursor','pointer');
-			this.gifElement.css('position','absolute');
-			this.gifElement.css('top','0');
-			this.gifElement.css('left','0');
 			this.gifElement.attr('src', gifSrc);
 			this.gifElement.click( function(e){
 				$(this).remove();

@@ -41,32 +41,58 @@
     display: none;
   }
 
-  .slick-dots,
-  .slick-arrow {
+  .play-gif {
+    opacity: 0;
     -webkit-animation-name: appear;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards; 
     animation-name: appear;
     animation-duration: 1s;
-    animation-timing-function: linear;
+    animation-timing-function: linear; 
+    animation-fill-mode: forwards;
   }
 
   @-webkit-keyframes appear {
     from {
-      max-height: 0;
       opacity: 0;
     }
 
     to {
-      max-height: 200px;
       opacity: 1;
     }
   }
 
   @keyframes appear {
     from {
-      max-height: 0;
       opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .slick-dots,
+  .slick-arrow {
+    max-height: 0;
+    opacity: 0;
+    -webkit-animation-delay: 0.5s; 
+    -webkit-animation-name: reveal;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards; 
+    animation-delay: 0.5s;
+    animation-name: reveal;
+    animation-duration: 1.5s;
+    animation-timing-function: linear; 
+    animation-fill-mode: forwards;
+  }
+
+  @-webkit-keyframes reveal {
+    from {
+      max-height: 0;
+      opacity: 0.2;
     }
 
     to {
@@ -75,8 +101,16 @@
     }
   }
 
-  .slick-dotted.slick-slider {
-    margin-bottom: 5px;
+  @keyframes reveal {
+    from {
+      max-height: 0;
+      opacity: 0.2;
+    }
+
+    to {
+      max-height: 200px;
+      opacity: 1;
+    }
   }
 
   .slick-initialized {
@@ -104,15 +138,13 @@
 
   .slick-dots {
     margin: auto;
-    bottom: 0;
     font-size: 15px;
-    max-width: 670px;
-    position: relative;
+
 
     li {
       width: auto;
       height: auto;
-      margin-bottom: 20px;
+      margin: 15px 0 15px 0;
 
       span {
         font-weight: 400;
@@ -137,6 +169,15 @@
         color: black;
       }
     }
+
+    li.secondary {
+      span {
+        font-weight: 100;
+        &:hover {
+          background-color: none;
+        }
+      }
+    } 
   }
 }
 
@@ -248,10 +289,6 @@
   .home-header {
     h1 {
       margin-top: 10px;
-    }
-
-    .container-fluid {
-      padding: 0;
     }
   }
 

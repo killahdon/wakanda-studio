@@ -3,6 +3,47 @@
 
 # Change log
 
+## 1.1.2
+
+- Fix: Project settings: save fails on Windows
+- Fix: Project settings: lose focus when clicking on save (Mac and Windows)
+- Fix: Run on Android and iOS devices fails
+- Fix: Run web page fails with the last version of npm
+- Fix: Run web page in angular2 webpack fails to open the page
+- Fix: Add missing dependencies `ios-deploy` and `ios-sim` to the troubleshooting
+- Fix: Typescript errors compilation in the mobile ionic2 tabs and tutorial templates
+- Fix: Typescript errors compilation in the web webpack angular2 template
+- Update angular2 module from rc to final release version in ionic 2 template, and webpack angular 2 template
+
+
+### 1.1.1
+
+- Fix: project settings editor rejects valid CORS hostname configuration
+- Fix: project settings editor : on mac we loose the focus while typing values in input text
+
+## 1.1.0
+
+- [Web] Support of Angular 2
+- [Mobile] Support of Ionic 2
+- [Web & Mobile] New navigation and address bar in the Preview panel
+- [Web & Mobile] Better overall user experience
+- [Studio] Open folder in Terminal
+- [Studio] New web and mobile template catalog for project creation
+- [Studio] New preferences: auto-shutdown server on solution close and auto-reload modified files
+- [Studio] Better support of Retina displays
+- [Studio] Better support of multiple displays
+- [Code Editor] Comments toggling with `CMD-/` and `CTRL-/`
+- [Code Editor] Better support of `.ts` `.less`, `.scss`, `.sass` and `.md` files
+- [Git] Remote settings edition
+- [Git & Deploy] Better overall user experience
+- [Add-ons] Improved updatability of Studio components and dependencies mechanism
+- [Extensions API] New option for `targets` argument in Extension manifest to handle files based on their extension
+- Fix: Wakanda Studio deployment UX issue [#15](https://github.com/Wakanda/wakanda-issues/issues/15)
+- Fix: TAB key shows completion list instead of indenting code
+- Fix: Prototyper css files not updated automatically
+- Fix: Prototyper unreachable Google fonts API
+- Fix: UI freeze [#86](https://github.com/Wakanda/wakanda-issues/issues/86) [#90](https://github.com/Wakanda/wakanda-issues/issues/90)
+
 ## Pre-release 1.1.0 (upcoming)
 
 - [Web] New support of Angular 2

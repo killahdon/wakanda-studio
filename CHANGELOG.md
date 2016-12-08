@@ -15,8 +15,7 @@
 - Fix: Typescript errors compilation in the web webpack angular2 template
 - Update angular2 module from rc to final release version in ionic 2 template, and webpack angular 2 template
 
-
-### 1.1.1
+## 1.1.1
 
 - Fix: project settings editor rejects valid CORS hostname configuration
 - Fix: project settings editor : on mac we loose the focus while typing values in input text

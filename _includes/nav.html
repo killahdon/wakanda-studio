@@ -14,7 +14,7 @@
     {% endfor %}
 
     {% for entry in site.data.toc.entries %}
-    <h2 {% if chapter_title = entry.title %} class="active" {% endif %}>
+    <h2 {% if chapter_title == entry.title %} class="active" {% endif %}>
         {{ entry.title }}
     </h2>
     <ul class="{{ entry.class }}">

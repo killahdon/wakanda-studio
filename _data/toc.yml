@@ -1,58 +1,14 @@
 entries:
-
-- title: Getting Started
   pages:
 
-  - title: Intro videos
-    url: index.html
-  
-  - title: Installation
-    url: installation.html
-
-  - title: Templates
+  - title: Bootstrap your project
     url: choose-templates.html
-  
-  - title: Data model
+
+  - title: Design your data
     url: design-data-model.html
 
-  - title: Web app
+  - title: Develop your frontend
     url: create-web-app.html
  
-  - title: Mobile app
+  - title: Develop your Mobile Web App
     url: create-mobile-app.html
-
-- title: Code management
-  pages:
-  
-  - title: Version control
-    url: version-control.html
-
-  - title: Deployment
-    url: deploy-your-app.html
-
-- title: Build management
-  pages:
-
-  - title: Build process
-    url: build-process-introduction.html
-
-  - title: SASS precompilation
-    url: sass-precompilation.html
-
-- title:  Other resources
-  pages:
-
-  - title: Change log
-    url: CHANGELOG.html
-
-  - title: Documentation
-    url: http://doc.wakanda.org/
-    target: _blank
-
-  - title: Angular connector
-    url: http://wakanda.github.io/angular-wakanda
-    target: _blank
-
-  - title: Doc contribution
-    url: CONTRIBUTING.html
-    

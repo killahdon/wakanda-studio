@@ -1,12 +1,12 @@
 full_rebuild: true
-name: Wakanda Studio
+name: Wakanda Platform
 author: Wakanda SAS
 url: http://wakanda.io
 version: 0.1
 repository: https://github.com/Wakanda/wakanda-studio
 branch: gh-pages
 encoding: utf-8
-themes: 
+themes:
     general: wakanda
     code: github
 version: 1.3

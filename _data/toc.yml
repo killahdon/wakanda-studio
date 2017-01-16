@@ -1,5 +1,6 @@
 entries:
-  pages:
+ -- title: Getting Started
+ pages:
 
   - title: Bootstrap your project
     url: choose-templates.html

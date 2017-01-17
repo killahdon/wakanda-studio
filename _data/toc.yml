@@ -18,8 +18,8 @@ entries:
    - title: Connect to MySQL DB
      url: design-data-model.html
 
-   - title: Deploy and Run your App on your Server
+   - title: Deploy to your Server
      url: design-data-model.html
 
-   - title: Deploy and Run your App in the Wakanda Cloud
+   - title: Deploy to the Wakanda Cloud
      url: design-data-model.html

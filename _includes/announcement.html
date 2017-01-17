@@ -1,7 +1,7 @@
 <div id="announcement">
     <p>
         <strong><i class="fa fa-flash " aria-hidden="true "></i>
-        Version 1.1
+        Version 1.1 <a href="CHANGELOG.html ">
         </strong> is now available! <a href="CHANGELOG.html ">
         Read about the new features and fixes »</a>
     </p>
@@ -44,7 +44,7 @@
     var platformLink = platformLinkCollection[os];
 
     if(typeof platformLink != 'undefined') {
-        document.getElementById('announcement').innerHTML = 
+        document.getElementById('announcement').innerHTML =
             '<p><i class="fa fa-rocket" aria-hidden="true"></i> Thanks for downloading <strong>' + productName + '</strong> for '+ platformLabel +'! \
             Download not starting? <a href="' + platformLink + '">Try this direct download link.</a> \
             </p>';

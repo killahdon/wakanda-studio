@@ -15,11 +15,14 @@ entries:
    - title: Create and expose your data
      url: design-data-model.html
 
-   - title: Connect to MySQL DB
-     url: design-data-model.html
-
    - title: Deploy to your Server
      url: design-data-model.html
 
    - title: Deploy to the Wakanda Cloud
+     url: design-data-model.html
+
+ - title: Go further
+
+   pages:
+   - title: Connect to MySQL DB
      url: design-data-model.html

@@ -6,23 +6,20 @@ entries:
    - title: Bootstrap your project
      url: choose-templates.html
 
-   - title: Develop your front with Angular
+   - title: Code with Angular
      url: create-web-app.html
 
-   - title: Develop your Mobile Web App with Ionic
+   - title: Code with Ionic
      url: create-mobile-app.html
 
-   - title: Create your data and publish via Rest API
+   - title: Create and expose your data
      url: design-data-model.html
 
    - title: Connect to MySQL DB
      url: design-data-model.html
 
-   - title: Deploy and Run your App on-prem
+   - title: Deploy and Run your App on your Server
      url: design-data-model.html
 
-   - title: Deploy and Run your App in the Cloud
-     url: design-data-model.html
-
-   - title: (optional) Use your Own IDE
+   - title: Deploy and Run your App in the Wakanda Cloud
      url: design-data-model.html

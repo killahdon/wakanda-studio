@@ -1,13 +1,13 @@
 ---
 ---
 
-# Installation
+# Hello World
 
 ## Table of contents
 
 - [Install Wakanda](#install-wakanda)
 - [Choose your app's type](#choose-your-apps-type)
-- [Setup the mobile stack](#setup-the-mobile-stack)
+- [Preview](#preview)
 
 
 ## Install Wakanda
@@ -68,7 +68,7 @@ Just click on your project, and then on "Preview".
 
 Now, you can code your app !
 
-Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial).
+Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
 
 A simple change in 'pages/hello-ionic.html' and I have my **HelloWorld** done.   
 The preview is automatically reloaded after each saving.

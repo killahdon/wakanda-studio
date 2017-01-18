@@ -6,9 +6,9 @@
 ## Table of contents
 
 - [Install Wakanda](#install-wakanda)
+- [Choose your app's type](#choose-your-apps-type)
 - [Setup the mobile stack](#setup-the-mobile-stack)
-- [Increase your productivity](#increase-your-productivity)
-- [Add extensions](#add-extensions)
+
 
 ## Install Wakanda
 
@@ -21,52 +21,60 @@ First, download and install **Wakanda Community Edition**
 
 Now we can start our **HelloWorld** project.  
 
-## Choose your app type
+## Choose your app's type
 We can choose the kind of app we want to create : mobile, web or both.
 
-Let’s say a mobile app in Angular2 for Android. 
+Let’s say we want to create an Android app with Ionic2. 
 
-To do that, we're going to use the studio (add logo here), and click on "Create a new solution", to open the template selection page.
+To do that, we're going to use the studio, and click on "Create a new solution":
 
-## Setup the mobile stack
+<img src="img/hp-initial.png"/>
 
-When you create or open a project, your can check in the console for any missing prerequisites: 
+Which opens the template selection page:  
+<img src="img/hw-template-selection.png"/>
 
-<img src="img/install-console-overview.png"/>
 
-For example, you'll need _Xcode_ to create iOS apps or _Android SDK_ for Android apps.
+There, you can name your app (without spaces) and select the ionic2 blank template.
 
-### Troubleshooting
+Now, in your **HelloWorld** project, you can find the basic ionic2 file structure :
 
-Do you need help? Open the _Mobile Troubleshooting App_ from the console or the main menu (_Help_ > _Wakanda Mobile Troubleshooting_). Then, detect and fix common issues:
+<img src="img/hw-file-structure.png"/>  
 
-<img class="gif" src="img/install-requirements.png">
+You have 3 folders at the root of your project:
 
-## Increase your productivity
+- Database , in which you’ll find your data model(s) and data  
+- Mobile, where you’ll find all your front end files  
+- Backend, where you’ll find the settings and permissions on your app and your business logic  
 
-### Live reload
+For our “Hello world” we’re only going to work in the mobile folder.
 
-The following message in the console warns you when live reload is deactivated:
 
-<img src="img/console-livereload-info.png" />
-    
-If you want the page to reload automatically after any file changes occur, please install [node](https://nodejs.org/){:target="blank_"} and gulp:
+## Check for dependencies
 
-    npm install -g gulp
-    
-Close the web preview panel and click again on [Run Page](create-web-app.html). The Studio will install automatically the live-reload requierements:
+For mobile apps, you need to check for any missing dependencies.
+Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
-<img src="img/console-livereload-requirements.png" />
+<img src="img/hw-troubleshooting.png"/>
 
-## Add extensions
+Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
-Improve your development workflow adding and updating Studio extensions.
-To do so, open the _Add-ons_ app from the toolbar. The _Add-ons_ badge notifies you when extension updates are available:
+## Preview  
+Once all your dependencies are checked you can preview your app. 
+Just click on your project, and then on "Preview".
 
-<img src="img/install-extensions.png" />
+<img src="img/hw-first-preview.png"/>
 
 ---
 
-Now, you are ready to build your app!
+Now, you can code your app !
+
+Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial).
+
+A simple change in 'pages/hello-ionic.html' and I have my **HelloWorld** done.   
+The preview is automatically reloaded after each saving.
+
+<img src="img/hw-final-preview.png"/>
+
+Now we can run our app !
 
 [Getting Started »](index.html){:class="btn"}

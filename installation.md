@@ -32,6 +32,7 @@ To do that, we're going to use the studio, and click on "Create a new solution":
 <img src="img/hp-initial.png"/>
 
 Which opens the template selection page:  
+
 <img src="img/hw-template-selection.png"/>
 
 
@@ -59,7 +60,7 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
-## Preview  
+## Preview   
 Once all your dependencies are checked you can preview your app. 
 Just click on your project, and then on "Preview".
 

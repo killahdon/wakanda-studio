@@ -7,6 +7,7 @@
 
 - [Install Wakanda](#install-wakanda)
 - [Choose your app's type](#choose-your-apps-type)
+- [Check for dependencies](#check-for-dependencies)
 - [Preview](#preview)
 
 

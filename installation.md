@@ -65,13 +65,10 @@ Just click on your project, and then on "Preview".
 
 <img src="img/hw-first-preview.png"/>
 
----
-
-Now, you can code your app !
 
 Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
 
-A simple change in 'pages/hello-ionic.html' and I have my **HelloWorld** done.   
+A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.   
 The preview is automatically reloaded after each saving.
 
 <img src="img/hw-final-preview.png"/>

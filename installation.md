@@ -12,13 +12,21 @@
 
 ## Install Wakanda
 
-Download the latest Wakanda **Community Edition** on [wakanda.github.io](https://wakanda.github.io/){:target="blank_"}.
-Find the **Enterprise Edition** on [wakanda.io](http://wakanda.io/){:target="blank_"}.
+First, download and install **Wakanda Community Edition**
 
-- On Windows, double-click on the `wakanda-digital-app-factory-xxx.msi` file to launch the installation wizard.
-- On Mac OS X, open `wakanda-digital-app-factory-xxx.dmg` file and copy `Wakanda Studio` and `Wakanda Server` in your `Applications` folder:
+- On Windows, [x86](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x86.msi "download") or [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.msi "download") click on the `wakanda-digital-app-factory-xxx.msi` file to launch the installation wizard.
+- On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download") open `wakanda-digital-app-factory-xxx.dmg` file and copy `Wakanda Studio` and `Wakanda Server` in your `Applications` folder:
 
 <img src="img/install-wakanda.png" />
+
+Now we can start our **HelloWorld** project.  
+
+## Choose your app type
+We can choose the kind of app we want to create : mobile, web or both.
+
+Let’s say a mobile app in Angular2 for Android. 
+
+To do that, we're going to use the studio (add logo here), and click on "Create a new solution", to open the template selection page.
 
 ## Setup the mobile stack
 

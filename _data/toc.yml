@@ -26,3 +26,5 @@ entries:
    pages:
    - title: Connect to MySQL DB
      url: design-data-model.html
+   - title: Build scalabale App
+     url: http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management

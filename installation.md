@@ -77,6 +77,10 @@ You can select "Preview in web browser" if you prefer to see the result in your 
 
 <img src="img/hw-final-preview.png"/>
 
-Now we can run our app !
+Now you can run your app on the Android emulator.
+
+<img src="img/hw-run-emulator.png"/>
+
+<img src="img/hw-emulator-view.png"/>
 
 [Getting Started »](index.html){:class="btn"}

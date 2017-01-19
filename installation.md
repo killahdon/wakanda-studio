@@ -128,19 +128,15 @@ Add the attribute
 <img src="img/model-designer-addattribute.png" />
 
 
-Add method to your Class
-
-<img src="img/model-designer-addmethod.png" />
-
-
-Implement your method in JS
-
-<img src="img/model-designer-addcode.png" />
-
-
 Save your model
 
-Populate your database
+Create a JS file to populate your database
+
+<img src="img/model-designer-addJSfile.png" />
+
+Add your Superhero
+
+<img src="img/model-designer-addcode.png" />
 
 Display a list of superheros in your App
 

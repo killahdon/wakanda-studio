@@ -46,7 +46,7 @@ nav {
       &.active {
           font-weight: bold;
       }
-      
+
       a {
         font-size: 12px;
         color: #aaaaaa;
@@ -58,6 +58,8 @@ nav {
 nav.subnavbar {
   right: 0;
   left: auto;
+  position: fixed;
+  ;
 
   .fa {
     padding: 0 5px 0 0;
@@ -116,13 +118,13 @@ section {
 }
 
 @media print, screen and(max-width: 830px) {
-    
+
   section {
-      
+
     h1 {
       padding-right: 40px;
     }
-    
+
     #contribute  a:after {
       content: "";
     }

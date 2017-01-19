@@ -6,10 +6,10 @@ entries:
    - title: Bootstrap your project
      url: installation.html
 
-   - title: Code your App
+   - title: Code your app
      url: installation.html/##choose-your-apps-type
 
-   - title: Create your Data Server-Side
+   - title: Create your data
      url: installation.html/#data
 
    - title: Deploy & Run

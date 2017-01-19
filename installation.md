@@ -3,20 +3,6 @@
 
 # Hello World: your first Mobile Web App
 
-## List of Articles
-
-- [Install Wakanda](#install-wakanda)
-- [Choose : mobile or web app ?](#choose-mobile-or-web-app)
-- [Check for dependencies](#check-for-dependencies)
-- [Code and preview](#code-preview)
-- [Run on emulator](#run-on-emulator)
-- [Run on device](#run-on-device)
-- [Open Data Model Designer](#open-model-designer)
-- [Create New Data Class](#create-dataclass)
-- [Add attribute](#add-attribute)
-- [Add your Super Hero ](#add-super-hero)
-- [Test the result](#test-result)
-
 ## Install Wakanda
 
 First, download and install **Wakanda Community Edition**

@@ -8,16 +8,11 @@
 - [Install Wakanda](#install-wakanda)
 - [Choose : mobile or web app ?](#choose-mobile-or-web-app)
 - [Check for dependencies](#check-for-dependencies)
-<<<<<<< HEAD
-- [Create and publish your data](#data)
-- [Preview](#preview)
-- [Deploy](#deploy)
-=======
+- [Create your data](#data)
 - [Code and preview](#code-preview)
 - [Run on emulator](#run-on-emulator)
 - [Run on device](#run-on-device)
->>>>>>> origin/gh-pages
-
+- [Deploy](#deploy)
 
 ## Install Wakanda
 
@@ -74,7 +69,7 @@ Once all your dependencies are checked you can preview your app.
 
 ## Code and preview  
 
-Once all your dependencies are checked you can preview your app. 
+Once all your dependencies are checked you can preview your app.
 >>>>>>> origin/gh-pages
 Just click on your project, and then on "Preview".
 

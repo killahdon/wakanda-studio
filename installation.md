@@ -15,10 +15,9 @@
 
 First, download and install **Wakanda Community Edition**
 
-- On Windows, [x86](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x86.msi "download") or [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.msi "download") click on the `wakanda-digital-app-factory-xxx.msi` file to launch the installation wizard.
-- On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download") open `wakanda-digital-app-factory-xxx.dmg` file and copy `Wakanda Studio` and `Wakanda Server` in your `Applications` folder:
+- On Windows, [x86](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x86.msi "download") or [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.msi "download")
+- On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download")
 
-<img src="img/install-wakanda.png" />
 
 Now we can start our **HelloWorld** project.  
 
@@ -71,6 +70,10 @@ Let's have a look to our project structure : the src folder is the classical [io
 
 A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.   
 The preview is automatically reloaded after each saving.
+
+<img src="img/hw-second-preview.png"/>
+
+You can select "Preview in web browser" if you prefer to see the result in your default browser.  
 
 <img src="img/hw-final-preview.png"/>
 

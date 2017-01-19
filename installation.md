@@ -107,9 +107,9 @@ Open the _Run_ dropdown and select the device to run on:
 
 <img src="img/mobile-run-devices.png" />
 
-## Open Data Model Designer
+## Edit your data Visually
 
-Now let's make our HelloWorld app more intersting and add data to it.
+Now let's make our HelloWorld app more intersting and add data to it. WHat about saying "Hello !" to our favorite superheros ?
 
 To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
@@ -121,6 +121,7 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 > - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
 
 ## Create new Data Class
+I create a `superHero` dataclass, and add the attribute `name` to it
 
 <img src="img/model-designer-newdataclass.png" />
 
@@ -129,9 +130,7 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
 <img src="img/model-designer-addattribute.png" />
 
-
 ## Save your model
-
 Create a JS file to populate your database
 
 <img src="img/model-designer-addJSfile.png" />

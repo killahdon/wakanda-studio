@@ -3,7 +3,7 @@
 
 # Hello World: your first Mobile Web App
 
-## Table of contents
+## List of Articles
 
 - [Install Wakanda](#install-wakanda)
 - [Choose : mobile or web app ?](#choose-mobile-or-web-app)

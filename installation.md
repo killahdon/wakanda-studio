@@ -135,12 +135,10 @@ Add method to your Class
 
 Implement your method in JS
 
-<img src="img/model-designer-implementmethod.png" />
+<img src="img/model-designer-addcode.png" />
 
 
 Save your model
-
-open the following link in your browser:
 
 Populate your database
 

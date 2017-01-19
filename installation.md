@@ -49,7 +49,7 @@ You have 3 folders at the root of your project:
 - Mobile, where you’ll find all your front end files  
 - Backend, where you’ll find the settings and permissions on your app and your business logic  
 
-For our “Hello world” we’re only going to work in the mobile folder.
+For our “Hello world” we’re going to work first in the mobile folder.
 
 
 ## Check for dependencies
@@ -96,6 +96,15 @@ Now you can run your app on the Android emulator.
 <img src="img/hw-emulator-view.png"/>
 
 ## Run on device  
+
+
+Make sure you have [USB debugging enabled](http://developer.android.com/tools/device.html).
+
+Wakanda Studio automatically detects supported device connected to the USB port.
+Open the _Run_ dropdown and select the device to run on:
+
+<img src="img/mobile-run-devices.png" />
+
 
 ## Server-Side
 

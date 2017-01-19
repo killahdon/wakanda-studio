@@ -46,10 +46,10 @@
     -webkit-animation-name: appear;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards;
     animation-name: appear;
     animation-duration: 1s;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
 
@@ -77,15 +77,15 @@
   .slick-arrow {
     max-height: 0;
     opacity: 0;
-    -webkit-animation-delay: 0.5s; 
+    -webkit-animation-delay: 0.5s;
     -webkit-animation-name: reveal;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-fill-mode: forwards; 
+    -webkit-animation-fill-mode: forwards;
     animation-delay: 0.5s;
     animation-name: reveal;
     animation-duration: 1.5s;
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
   }
 
@@ -177,7 +177,7 @@
           background-color: none;
         }
       }
-    } 
+    }
   }
 }
 
@@ -240,6 +240,30 @@
 
       &.templates {
         background-image: url(../../../img/pic_templates.png);
+      }
+      &.angular {
+        background-image: url(../../../img/pic_angular.png);
+      }
+      &.wizard {
+        background-image: url(../../../img/pic_wizard.png);
+      }
+      &.scalability {
+        background-image: url(../../../img/pic_scalability.png);
+      }
+      &.ionic {
+        background-image: url(../../../img/pic_ionic.png);
+      }
+      &.wakCloud {
+        background-image: url(../../../img/pic_wakCloud.png);
+      }
+      &.deployServer {
+        background-image: url(../../../img/pic_deployServer.png);
+      }
+      &.connectDB {
+        background-image: url(../../../img/pic_connectDB.png);
+      }
+      &.designData {
+        background-image: url(../../../img/pic_designData.png);
       }
       &.model {
         background-image: url(../../../img/pic_model.png);

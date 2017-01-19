@@ -78,7 +78,7 @@ A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.
 You can change the background color in `mobile/www/build/main.css` to make it more visual.
 The preview is automatically reloaded after each saving.
 
-<img src="img/hw-third-preview.png"/>
+<img src="img/hw-colored-preview.png"/>
 
 You can select "Preview in web browser" if you prefer to see the result in your default browser.  
 

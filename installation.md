@@ -6,25 +6,30 @@
 ## Table of contents
 
 - [Install Wakanda](#install-wakanda)
-- [Choose your app's type](#choose-your-apps-type)
+- [Choose : mobile or web app ?](#choose-mobile-or-web-app)
 - [Check for dependencies](#check-for-dependencies)
+<<<<<<< HEAD
 - [Create and publish your data](#data)
 - [Preview](#preview)
 - [Deploy](#deploy)
+=======
+- [Code and preview](#code-preview)
+- [Run on emulator](#run-on-emulator)
+- [Run on device](#run-on-device)
+>>>>>>> origin/gh-pages
 
 
 ## Install Wakanda
 
 First, download and install **Wakanda Community Edition**
 
-- On Windows, [x86](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x86.msi "download") or [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.msi "download") click on the `wakanda-digital-app-factory-xxx.msi` file to launch the installation wizard.
-- On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download") open `wakanda-digital-app-factory-xxx.dmg` file and copy `Wakanda Studio` and `Wakanda Server` in your `Applications` folder:
+- On Windows, [x86](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x86.msi "download") or [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.msi "download")
+- On Mac OS X, [x64](https://github.com/Wakanda/wakanda-digital-app-factory/releases/download/v1.1.3/wakanda-community-all_1.1.3_x64.dmg "download")
 
-<img src="img/install-wakanda.png" />
 
 Now we can start our **HelloWorld** project.  
 
-## Choose your app's type
+## Choose : mobile or web app ?
 We can choose the kind of app we want to create : mobile, web or both.
 
 Let’s say we want to create an Android app with Ionic2.
@@ -62,8 +67,15 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
+<<<<<<< HEAD
 ## Preview   
 Once all your dependencies are checked you can preview your app.
+=======
+
+## Code and preview  
+
+Once all your dependencies are checked you can preview your app. 
+>>>>>>> origin/gh-pages
 Just click on your project, and then on "Preview".
 
 <img src="img/hw-first-preview.png"/>
@@ -74,8 +86,21 @@ Let's have a look to our project structure : the src folder is the classical [io
 A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.   
 The preview is automatically reloaded after each saving.
 
+<img src="img/hw-second-preview.png"/>
+
+You can select "Preview in web browser" if you prefer to see the result in your default browser.  
+
 <img src="img/hw-final-preview.png"/>
 
-Now we can run our app !
+
+## Run on emulator  
+
+Now you can run your app on the Android emulator.
+
+<img src="img/hw-run-emulator.png"/>
+
+<img src="img/hw-emulator-view.png"/>
+
+## Run on device  
 
 [Getting Started »](index.html){:class="btn"}

@@ -87,7 +87,7 @@ You can select "Preview in web browser" if you prefer to see the result in your 
 
 ## Run on emulator  
 
-Now you can run your app on the Android emulator.
+Now you can run your app on the [Android emulator](https://developer.android.com/studio/run/emulator.html "check documentation").
 
 <img src="img/hw-run-emulator.png"/>
 

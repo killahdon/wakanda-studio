@@ -1,5 +1,5 @@
 entries:
- - title: Getting Started
+ - title: Hello World
 
    pages:
 
@@ -7,13 +7,13 @@ entries:
      url: installation.html
 
    - title: Code your Front-Side
-     url: installation.html/##choose-your-apps-type
+     url: installation.html#choose-mobile-or-web-app
 
    - title: Code your Server-Side
-     url: installation.html/#serverside
+     url: installation.html#server-side
 
    - title: Deploy & Run
-     url: installation.html/#deploy
+     url: installation.html#run-on-emulator
 
  - title: Go further
 

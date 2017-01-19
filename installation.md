@@ -8,7 +8,9 @@
 - [Install Wakanda](#install-wakanda)
 - [Choose : mobile or web app ?](#choose-mobile-or-web-app)
 - [Check for dependencies](#check-for-dependencies)
-- [Preview](#preview)
+- [Code and preview](#code-preview)
+- [Run on emulator](#run-on-emulator)
+- [Run on device](#run-on-device)
 
 
 ## Install Wakanda
@@ -59,7 +61,9 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
-## Preview   
+
+## Code and preview  
+
 Once all your dependencies are checked you can preview your app. 
 Just click on your project, and then on "Preview".
 
@@ -77,10 +81,15 @@ You can select "Preview in web browser" if you prefer to see the result in your 
 
 <img src="img/hw-final-preview.png"/>
 
+
+## Run on emulator  
+
 Now you can run your app on the Android emulator.
 
 <img src="img/hw-run-emulator.png"/>
 
 <img src="img/hw-emulator-view.png"/>
+
+## Run on device  
 
 [Getting Started »](index.html){:class="btn"}

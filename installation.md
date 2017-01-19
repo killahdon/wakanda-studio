@@ -6,7 +6,7 @@
 ## Table of contents
 
 - [Install Wakanda](#install-wakanda)
-- [Choose your app's type](#choose-your-apps-type)
+- [Choose : mobile or web app ?](#choose-mobile-or-web-app)
 - [Check for dependencies](#check-for-dependencies)
 - [Preview](#preview)
 
@@ -21,7 +21,7 @@ First, download and install **Wakanda Community Edition**
 
 Now we can start our **HelloWorld** project.  
 
-## Choose your app's type
+## Choose : mobile or web app ?
 We can choose the kind of app we want to create : mobile, web or both.
 
 Let’s say we want to create an Android app with Ionic2. 

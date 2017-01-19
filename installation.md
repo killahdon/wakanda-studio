@@ -113,21 +113,33 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 - Open Data Model Designer
 
 <img src="img/model-designer-open.png" />
-`database/model.waModel`
 
 > **TIPS**:
 > - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
 > - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
 
 - Drag&Drop the Data Class
+
 <img src="img/model-designer-newdataclass.png" />
+
+
 - Add the attribute
+
 <img src="img/model-designer-addattribute.png" />
+
+
 - add method to your Class
+
 <img src="img/model-designer-addmethod.png" />
+
+
 - Implement your method in JS
+
 <img src="img/model-designer-implementmethod.png" />
+
+
 - Save your model
+
 - open the following link in your browser:
 
 - populate your database

@@ -6,11 +6,11 @@ entries:
    - title: Bootstrap your project
      url: installation.html
 
-   - title: Code your app
+   - title: Code your Front
      url: installation.html/##choose-your-apps-type
 
-   - title: Create your data
-     url: installation.html/#data
+   - title: Code your Server-Side
+     url: installation.html/#serverside
 
    - title: Deploy & Run
      url: installation.html/#deploy
@@ -22,5 +22,5 @@ entries:
      url: http://docs.wakcloud.com/en/latest/
    - title: Connect to MySQL DB
      url: design-data-model.html
-   - title: Build scalabale App
+   - title: Build scalable App
      url: http://wakanda.github.io/wakanda-server-doc/#/doc/authentication/custom-session-management

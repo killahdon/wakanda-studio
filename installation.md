@@ -8,11 +8,10 @@
 - [Install Wakanda](#install-wakanda)
 - [Choose : mobile or web app ?](#choose-mobile-or-web-app)
 - [Check for dependencies](#check-for-dependencies)
-- [Create your data](#data)
 - [Code and preview](#code-preview)
 - [Run on emulator](#run-on-emulator)
 - [Run on device](#run-on-device)
-- [Deploy](#deploy)
+- [Server-Side](#serverside)
 
 ## Install Wakanda
 
@@ -97,5 +96,22 @@ Now you can run your app on the Android emulator.
 <img src="img/hw-emulator-view.png"/>
 
 ## Run on device  
+# Server-Side
+
+## Design your data model
+
+### 1 - Open your model
+
+<img src="img/model-designer-explorer.png" />
+`database/model.waModel`
+
+> **TIPS**:
+> - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
+> - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
+
+### 2 - Design your data model
+
+<img src="img/model-designer.png" />  
+
 
 [Getting Started »](index.html){:class="btn"}

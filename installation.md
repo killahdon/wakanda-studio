@@ -73,10 +73,12 @@ Just click on your project, and then on "Preview".
 
 Let's have a look to our project structure : the src folder is the classical [ionic2 project structure](http://ionicframework.com/docs/v2/setup/tutorial/project-structure/ "ionic tutorial").
 
-A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.   
+A simple change in `pages/hello-ionic.html` and I have my **HelloWorld** done.
+
+You can change the background color in `mobile/www/build/main.css` to make it more visual.
 The preview is automatically reloaded after each saving.
 
-<img src="img/hw-second-preview.png"/>
+<img src="img/hw-third-preview.png"/>
 
 You can select "Preview in web browser" if you prefer to see the result in your default browser.  
 

@@ -107,14 +107,10 @@ Open the _Run_ dropdown and select the device to run on:
 
 <img src="img/mobile-run-devices.png" />
 
-
-## Server-Side
-
-### Manage your data
+## Open Data Model Designer
 
 To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
-Open Data Model Designer
 
 <img src="img/model-designer-open.png" />
 
@@ -122,27 +118,27 @@ Open Data Model Designer
 > - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
 > - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
 
-Create new Data Class
+## Create new Data Class
 
 <img src="img/model-designer-newdataclass.png" />
 
 
-Add the attribute
+## Add the attribute
 
 <img src="img/model-designer-addattribute.png" />
 
 
-Save your model
+## Save your model
 
 Create a JS file to populate your database
 
 <img src="img/model-designer-addJSfile.png" />
 
-Add your Superhero
+## Add your Super Hero
 
 <img src="img/model-designer-addcode.png" />
 
-Display a list of superheros in your App
+## Display a list of superheros in your App
 
 
 

@@ -122,7 +122,7 @@ To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
 ### Edit you data model
 
-I create a `superHero` dataclass, add the attribute `name` to it and save.
+I create a `Superhero` dataclass, add the attribute `name` to it and save.
 
 <img src="img/model-designer-newdataclass.png" />
 
@@ -130,11 +130,10 @@ I create a `superHero` dataclass, add the attribute `name` to it and save.
 <img src="img/model-designer-addattribute.png" />
 
 ### Populate your database
-Create a JS file to populate the database
+Now you can create a JS file to populate your database, and add `batman` to your `Superhero` dataclass
 
 <img src="img/model-designer-addJSfile.png" />
 
-## Add your Super Hero
 
 <img src="img/model-designer-addcode.png" />
 

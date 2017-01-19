@@ -109,6 +109,8 @@ Open the _Run_ dropdown and select the device to run on:
 
 ## Open Data Model Designer
 
+Now let's make our HelloWorld app more intersting and add data to it.
+
 To manage your data easily and quickly, Wakanda provides a Visual Data Editor:
 
 

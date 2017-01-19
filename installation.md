@@ -11,7 +11,11 @@
 - [Code and preview](#code-preview)
 - [Run on emulator](#run-on-emulator)
 - [Run on device](#run-on-device)
-- [Server-Side](#server-side)
+- [Open Data Model Designer](#open-model-designer)
+- [Create New Data Class](#create-dataclass)
+- [Add attribute](#add-attribute)
+- [Add your Super Hero ](#add-super-hero)
+- [Test the result](#test-result)
 
 ## Install Wakanda
 

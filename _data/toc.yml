@@ -6,7 +6,7 @@ entries:
    - title: Bootstrap your project
      url: installation.html
 
-   - title: Code your Front
+   - title: Code your Front-Side
      url: installation.html/##choose-your-apps-type
 
    - title: Code your Server-Side

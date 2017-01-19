@@ -11,7 +11,7 @@
 - [Code and preview](#code-preview)
 - [Run on emulator](#run-on-emulator)
 - [Run on device](#run-on-device)
-- [Server-Side](#Server-Side)
+- [Server-Side](#server-side)
 
 ## Install Wakanda
 
@@ -118,7 +118,7 @@ Open Data Model Designer
 > - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
 > - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
 
-Drag&Drop the Data Class
+Create new Data Class
 
 <img src="img/model-designer-newdataclass.png" />
 

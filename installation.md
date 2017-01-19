@@ -101,7 +101,7 @@ Now you can run your app on the Android emulator.
 
 ### Design your data model
 
-#### 1 - Open your model
+1 - Create your model
 
 <img src="img/model-designer-explorer.png" />
 `database/model.waModel`
@@ -110,9 +110,12 @@ Now you can run your app on the Android emulator.
 > - click on <img class="inline" src="img/explorer-settings-shortcut.png"> to change the view options (the `.waModel` extension is hidden by default)
 > - click on <img class="inline" src="img/model-designer-shortcut.png"> to quickly access your model
 
-#### 2 - Design your data model
+2 - Add your Data Class
 
 <img src="img/model-designer.png" />  
 
+3 - Check-it in the Browser
+
+4 - Update your Front-Side
 
 [Getting Started »](index.html){:class="btn"}

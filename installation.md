@@ -61,15 +61,11 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
-<<<<<<< HEAD
-## Preview   
-Once all your dependencies are checked you can preview your app.
-=======
 
 ## Code and preview  
 
 Once all your dependencies are checked you can preview your app.
->>>>>>> origin/gh-pages
+
 Just click on your project, and then on "Preview".
 
 <img src="img/hw-first-preview.png"/>

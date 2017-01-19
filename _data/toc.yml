@@ -4,26 +4,22 @@ entries:
    pages:
 
    - title: Bootstrap your project
-     url: choose-templates.html
+     url: installation.html
 
-   - title: Code with Angular
-     url: create-web-app.html
+   - title: Code your App with Angular & Ionic
+     url: installation.html/##choose-your-apps-type
 
-   - title: Code with Ionic
-     url: create-mobile-app.html
+   - title: JS Server-Side:create and expose your data
+     url: installation.html/#data
 
-   - title: Create and expose your data
-     url: design-data-model.html
-
-   - title: Deploy to your Server
-     url: design-data-model.html
-
-   - title: Deploy to the Wakanda Cloud
-     url: design-data-model.html
+   - title: Deploy & Run to your Server
+     url: installation.html/#deploy
 
  - title: Go further
 
    pages:
+   - title: Deploy to the Wakanda Cloud
+     url: http://docs.wakcloud.com/en/latest/
    - title: Connect to MySQL DB
      url: design-data-model.html
    - title: Build scalabale App

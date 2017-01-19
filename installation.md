@@ -1,14 +1,16 @@
 ---
 ---
 
-# Hello World
+# Hello World: your first Mobile Web App
 
 ## Table of contents
 
 - [Install Wakanda](#install-wakanda)
 - [Choose your app's type](#choose-your-apps-type)
 - [Check for dependencies](#check-for-dependencies)
+- [Create and publish your data](#data)
 - [Preview](#preview)
+- [Deploy](#deploy)
 
 
 ## Install Wakanda
@@ -25,7 +27,7 @@ Now we can start our **HelloWorld** project.
 ## Choose your app's type
 We can choose the kind of app we want to create : mobile, web or both.
 
-Let’s say we want to create an Android app with Ionic2. 
+Let’s say we want to create an Android app with Ionic2.
 
 To do that, we're going to use the studio, and click on "Create a new solution":
 
@@ -61,7 +63,7 @@ Go in the main menu  (_Help_ > _Wakanda Troubleshooting_) and choose Android.
 Here you can see I miss Homebrew, Apache And and Android SDK. All is explained there: why I need them, and how to install them.
 
 ## Preview   
-Once all your dependencies are checked you can preview your app. 
+Once all your dependencies are checked you can preview your app.
 Just click on your project, and then on "Preview".
 
 <img src="img/hw-first-preview.png"/>

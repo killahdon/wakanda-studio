@@ -18,7 +18,7 @@ We can choose the kind of app we want to create : mobile, web or both.
 
 Let’s say we want to create an Android app with Ionic2.
 
-To do that, we're going to use the studio, and click on "Create a new solution":
+To do that, we're going to open the studio, (add studio icon here) and click on "Create a new solution": (entourer le bouton sur l'image)
 
 <img src="img/hp-initial.png"/>
 
@@ -27,16 +27,18 @@ Which opens the template selection page:
 <img src="img/hw-template-selection.png"/>
 
 
-There, you can name your app (without spaces) and select the ionic2 blank template.
+The structure of your future projects depends of the template you choose.
+You'll always have the same back end strcture, but you can choose to have a web front-end (or not) and/or a mobile front-end.
+There, you can name your app (without spaces) and select the Ionic2 blank template.
 
-Now, in your **HelloWorld** project, you can find the basic ionic2 file structure :
+Now, in your **HelloWorld** project, you can find the basic Ionic2 file structure :
 
 <img src="img/hw-file-structure.png"/>  
 
 You have 3 folders at the root of your project:
 
 - Database , in which you’ll find your data model(s) and data  
-- Mobile, where you’ll find all your front end files  
+- Mobile, where you’ll find all your front-end files  
 - Backend, where you’ll find the settings and permissions on your app and your business logic  
 
 For our “Hello world” we’re going to work first in the mobile folder.
